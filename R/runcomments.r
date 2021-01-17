@@ -17,7 +17,6 @@ runCommentedSource <- function(pattern, ...) {
 #'
 #' @return a character vector. One element per selected line
 #'
-#' @examples
 getSelectionText <- function() {
   rstudioapi::getSourceEditorContext()$selection[[1]]$text
 }
@@ -29,7 +28,6 @@ getSelectionText <- function() {
 #'
 #' @return character vector with comment characters removed
 #'
-#' @examples
 removeCommentCharacters <- function(text, pattern = NULL) {
   text <- strsplit(text, "\\n")
   text <- unlist(text)
