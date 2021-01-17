@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of runcomments is to …
+The goal of runcomments is to let you select commented lines in your
+source editor and run them in the console.
 
 ## Installation
 
@@ -20,8 +21,3 @@ remotes::install_github("adam-gruer/runcomments")
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
-
-``` r
-#library(runcomments)
-## basic example code
-```
