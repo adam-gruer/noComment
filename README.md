@@ -4,6 +4,8 @@
 # runcomments
 
 <!-- badges: start -->
+
+![R-CMD-check](https://github.com/adam-gruer/runcomments/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
 The goal of runcomments is to let you select commented lines in your
