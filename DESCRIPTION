@@ -1,4 +1,4 @@
-Package: runcomments
+Package: nocomment
 Title: Run Selected Lines Of Commented Code In The RStudio Console
 Version: 0.1.0
 Authors@R: 
