@@ -12,7 +12,7 @@ runCommentedSource(pattern, ...)
 \item{...}{other arguments to rstudioapi::sendToConsole}
 }
 \value{
-
+nothing
 }
 \description{
 Run selected, commented lines from RStudio source editor in the console

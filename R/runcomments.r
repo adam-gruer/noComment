@@ -4,9 +4,8 @@
 #' @param pattern character string containing a regular expression
 #' @param ... other arguments to rstudioapi::sendToConsole
 #'
-#' @return
+#' @return nothing
 #' @export
-#'
 runCommentedSource <- function(pattern, ...) {
   selectionText <- getSelectionText()
   selectionText <- removeCommentCharacters(selectionText)
@@ -16,7 +15,6 @@ runCommentedSource <- function(pattern, ...) {
 #' Return text from current source editor selection
 #'
 #' @return a character vector. One element per selected line
-#'
 getSelectionText <- function() {
   rstudioapi::getSourceEditorContext()$selection[[1]]$text
 }
@@ -27,7 +25,6 @@ getSelectionText <- function() {
 #' @param pattern character string containing a regular expression
 #'
 #' @return character vector with comment characters removed
-#'
 removeCommentCharacters <- function(text, pattern = NULL) {
   text <- strsplit(text, "\\n")
   text <- unlist(text)
