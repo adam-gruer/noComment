@@ -6,7 +6,7 @@
 #'
 #' @return nothing
 #' @export
-runCommentedSource <- function(pattern, ...) {
+noComment <- function(pattern, ...) {
   selectionText <- getSelectionText()
   selectionText <- removeCommentCharacters(selectionText)
   rstudioapi::sendToConsole(selectionText, ...)

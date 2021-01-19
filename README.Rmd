@@ -13,20 +13,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# runcomments
+# noComment
 
 <!-- badges: start -->
-![R-CMD-check](https://github.com/adam-gruer/runcomments/workflows/R-CMD-check/badge.svg)
+![R-CMD-check](https://github.com/adam-gruer/noComment/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-The goal of runcomments is to let you select commented lines in your source editor and run them in the console.
+The goal of noComment is to let you select commented lines in your source editor and run them in the console.
 
 ## Installation
 
-You can install the development version of runcomments from [github](https://github.com) with:
+You can install the development version of nocomment from [github](https://github.com) with:
 
 ``` r
-remotes::install_github("adam-gruer/runcomments")
+remotes::install_github("adam-gruer/noComment")
 
 ```
 

@@ -1,4 +1,4 @@
 library(testthat)
-library(runcomments)
+library(noComment)
 
-test_check("runcomments")
+test_check("noComment")

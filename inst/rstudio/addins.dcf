@@ -1,4 +1,4 @@
 Name: Run commented source lines
 Description: Runs selected, commented lines in console
-Binding: runCommentedSource
+Binding: noComment
 Interactive: false
