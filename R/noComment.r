@@ -29,12 +29,12 @@ getSelectionText <- function() {
 #' Use regex pattern to remove comment characters from text
 #'
 #' @param text character vector of text from current source editor selection
-#' @param pattern character string containing a regular expression
 #'
 #' @return character vector with comment characters removed
-removeCommentCharacters <- function(text, pattern = NULL) {
+removeCommentCharacters <- function(text) {
   text <- strsplit(text, "\\n")
   text <- unlist(text)
+  pattern <- getOption("noComment.regex")
 
   if (is.null(pattern)) {
     pattern <- "^\\s*#+\\s*'*"
