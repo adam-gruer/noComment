@@ -8,8 +8,7 @@
 ![R-CMD-check](https://github.com/adam-gruer/noComment/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-Sometimes you just want to run a block (multiple lines) code you’ve
-commented out.
+Sometimes you just want to run some code you’ve commented out.
 
 Do you
 
@@ -37,7 +36,8 @@ shortcut. I am trialling Ctrl + ’</b>
 
 </ol>
 
-Also works great for interactively running examples in roxygen markup\!
+\*\*Also works great for interactively running examples in roxygen
+markup\!
 
 ## Here’s how
 

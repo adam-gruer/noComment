@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 ![R-CMD-check](https://github.com/adam-gruer/noComment/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-Sometimes you just want to run a block (multiple lines) code you've commented out.
+Sometimes you just want to run some code you've commented out.
 
 Do you
 <ol type="a">
@@ -28,7 +28,7 @@ Do you
 <li><b>Select your lines and use noComment addin assigned to a keyboard shortcut. I am trialling Ctrl + '</b></li>
 </ol>
 
-Also works great for interactively running examples in roxygen markup!
+**Also works great for interactively running examples in roxygen markup!
 
 ## Here's how
 
