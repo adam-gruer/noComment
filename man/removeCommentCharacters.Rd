@@ -4,12 +4,10 @@
 \alias{removeCommentCharacters}
 \title{Use regex pattern to remove comment characters from text}
 \usage{
-removeCommentCharacters(text, pattern = NULL)
+removeCommentCharacters(text)
 }
 \arguments{
 \item{text}{character vector of text from current source editor selection}
-
-\item{pattern}{character string containing a regular expression}
 }
 \value{
 character vector with comment characters removed
