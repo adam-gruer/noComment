@@ -16,7 +16,14 @@ noComment <- function(pattern, ...) {
 #'
 #' @return a character vector. One element per selected line
 getSelectionText <- function() {
-  rstudioapi::getSourceEditorContext()$selection[[1]]$text
+  context <- rstudioapi::getSourceEditorContext()
+  selection <- context$selection[[1]]
+  text <- selection$text
+  if (text == ""){
+    current_row = selection$range$start["row"]
+    text <- context$contents[current_row]
+  }
+  text
 }
 
 #' Use regex pattern to remove comment characters from text
