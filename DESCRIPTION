@@ -1,12 +1,12 @@
 Package: noComment
-Title: Run Selected Lines Of Commented Code In The RStudio Console
+Title: Run  Lines Of Commented Code In The RStudio Console
 Version: 0.1.0
 Authors@R: 
     person(given = "Adam",
            family = "Gruer",
            role = c("aut", "cre"),
            email = "adamgruer@icloud.com")
-Description: Use the rstudioapi to run selected, commented lines from the source pane in the console.
+Description: Use the rstudioapi to run  commented lines from the source pane in the console.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: es
